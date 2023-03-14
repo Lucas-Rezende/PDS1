@@ -63,7 +63,7 @@ int main (int argc, char *argv[])
   std::cout << "\nPerimetro (circ.): " << 2*M_PI*a << std::endl;
   std::cout << "\nArea (triang.)   : " << (b*c)/2 << std::endl;
   std::cout << "\nHipotenusa       : " << pow(b, 2) + pow(c, 2) << std::endl;
-  std::cout << "\nRaizes 1 e 2     : " << (-b + sqrt(pow(b, 2) - (4*a*c)))/(2*a) << " e " << (-b - sqrt(pow(b, 2) - 4*a*c))/(2*a) << std::endl;
+  std::cout << "\nRaizes 1 e 2: " << (-b + sqrt(pow(b, 2) - 4*a*c))/(2*a) << " e " << (-b - sqrt(pow(b, 2) - 4*a*c))/(2*a) << std::endl;
   
   return 0;
 }
